@@ -1,4 +1,4 @@
-NAME = exercice
+NAME = exercice_2
 
 NAMETEST = tests_run
 

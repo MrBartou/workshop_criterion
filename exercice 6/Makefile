@@ -1,4 +1,4 @@
-NAME = exercice_5
+NAME = exercice_6
 
 NAMETEST = tests_run
 
@@ -10,9 +10,11 @@ MAIN = ./main.c \
 
 MAINOBJ = $(MAIN:.c=.o)
 
-SRCS	=   ./src/error_handling.c \
+SRCS	=   ./src/init_info.c \
+			./src/fill_parameter.c \
+			./src/print_card.c \
 
-SRCSTEST = 	./tests/tests_return_one.c \
+SRCSTEST = 	\
 
 OBJSTEST	= $(SRCSTEST:.c=.o)
 
